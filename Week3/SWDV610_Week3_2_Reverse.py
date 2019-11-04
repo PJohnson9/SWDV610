@@ -6,9 +6,6 @@ def reverse(sequence):
     """ Recursively reverses a list"""
     if len(sequence) <= 1:
         return sequence
-    
-    elif len(sequence) == 2:
-            return [sequence[1], sequence[0]]
 
     else:
         return reverse(sequence[1:]) + [sequence[0]]
