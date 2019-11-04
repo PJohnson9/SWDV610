@@ -7,7 +7,8 @@ def find_min_max(sequence):
     Returns a list with the minimum value first and the maximum value second."""
     
     if len(sequence) == 1:   # 1 item in the sequence is both the min and the max
-        return [sequence[0], sequence[0]]
+        return [sequence[0], sequence[0]
+                
     elif len(sequence) == 2: # 2 items => return in the right order
         if sequence[0] < sequence[1]:
             return sequence
