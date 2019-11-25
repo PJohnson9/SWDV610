@@ -4,7 +4,7 @@
 # 3. Implement a deque using linked lists
 
 class Deque:
-    """ ADT Deque implemented in Python using a doubly Linked List
+    """ ADT Deque implemented in Python using a Doubly Linked List
 
     Intrinsic Methods:
         add_first(element) - Adds reference to element to the front of the deque
